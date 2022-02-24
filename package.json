@@ -1,0 +1,28 @@
+{
+  "name": "web3-integrator",
+  "version": "1.0.0",
+  "description": "Web3 explore",
+  "main": "index.js",
+  "scripts": {
+    "infura-balance": "node ./test/infura/test-node-balance.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlatnaspirala/web3-explorer.git"
+  },
+  "keywords": [
+    "web3",
+    "explore"
+  ],
+  "author": "Nikola Lukic",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zlatnaspirala/web3-explorer/issues"
+  },
+  "homepage": "https://github.com/zlatnaspirala/web3-explorer#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "web3": "^1.7.0"
+  }
+}
