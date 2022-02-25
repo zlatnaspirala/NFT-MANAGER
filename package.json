@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "infura-balance": "node ./test/infura/test-node-balance.js",
+    "infura-contract": "node ./test/infura/contract.js",
+    "remix-basic-contract": "node ./test/remix-tool/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

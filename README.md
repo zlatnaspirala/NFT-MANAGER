@@ -45,3 +45,17 @@ First from list : 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
 ## General documentation:
 
 https://web3js.readthedocs.io/en/v1.2.11/getting-started.html
+
+
+## Meaning alias
+
+ RootStock  RSK 
+ 
+
+## Potencial errors 
+
+
+metamask test with web3 ->
+```
+web3.min.js:22 Uncaught (in promise) Error: Returned values aren't valid, did it run Out of Gas? You might also see this error if you are not using the correct ABI for the contract you are retrieving data from, requesting data from a block number that does not exist, or querying a node which is not fully synced.
+```

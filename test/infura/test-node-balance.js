@@ -2,8 +2,9 @@
 const Web3 = require('web3');
 
 // Variables definition
-const addressFrom = '0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b';
+const addressFrom = '0x41CC48e4d1ed1128c087b3202545e6A34E240D14';
 const addressTo = '0x41CC48e4d1ed1128c087b3202545e6A34E240D14';
+
 const web3 = new Web3("wss://ropsten.infura.io/ws/v3/88ae8522cde946b3a84cb96211ac581b" 
 /*"wss://mainnet.infura.io/ws/v3/88ae8522cde946b3a84cb96211ac581b"*/);
 
