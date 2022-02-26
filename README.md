@@ -5,6 +5,21 @@
   - Learn about web3. Test implementation in gameplay zone
 
 
+## Help tools: 
+
+https://geth.ethereum.org/docs/interface/managing-your-accounts
+
+Add keystore file intro keysotre path. create new account to see where is it on outputs.
+```
+geth account list
+```
+
+https://geth.ethereum.org/docs/interface/mining
+geth --http --mine --miner.threads=2 --miner.etherbase 0x41CC48e4d1ed1128c087b3202545e6A34E240D14
+
+
+
+
 
 ## TEST CASES
 
@@ -50,7 +65,11 @@ https://web3js.readthedocs.io/en/v1.2.11/getting-started.html
 ## Meaning alias
 
  RootStock  RSK 
- 
+
+ ETHEREUM VIRTUAL MACHINE (EVM)  Self host - Lager or miner
+
+ Non-Fungible Tokens (NFTs) 
+
 
 ## Potencial errors 
 

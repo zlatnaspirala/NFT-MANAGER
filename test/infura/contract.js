@@ -7,7 +7,7 @@
  */
 
 // const Web3 = require('web3');
-const web3 = new Web3("wss://ropsten.infura.io/ws/v3/88ae8522cde946b3a84cb96211ac581b");
+const web3 = new Web3("wss://:" + privateKeyMainAddress + "@ropsten.infura.io/ws/v3/88ae8522cde946b3a84cb96211ac581b");
 /*"wss://mainnet.infura.io/ws/v3/88ae8522cde946b3a84cb96211ac581b"*/
 
 // Accounts
@@ -60,11 +60,13 @@ window.onload = () => {
     }
   ];
 
+  web3.eth.defaultAccount = '0x41CC48e4d1ed1128c087b3202545e6A34E240D14';
+  web3.eth.accounts.wallet.add(privateKeyMainAddress)
+
+  
   MyContract = new web3.eth.Contract(abi, '0x41CC48e4d1ed1128c087b3202545e6A34E240D14');
 
   
-  web3.eth.defaultAccount = '0x41CC48e4d1ed1128c087b3202545e6A34E240D14';
-  web3.eth.wallet.add()
 
 }
 // call constant function (synchronous way)
