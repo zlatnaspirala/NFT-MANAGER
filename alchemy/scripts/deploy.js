@@ -5,7 +5,7 @@ async function main() {
 
   // t Box.deploy({ gasLimit: 20287350, gasPrice: 252873500}); 
   // Start deployment, returning a promise that resolves to a contract object
-  const myNFT = await MyNFT.deploy({ gasLimit: 207350, gasPrice: 23500}); // Instance of the contract 
+  const myNFT = await MyNFT.deploy(); // Instance of the contract 
   console.log("Contract deployed to address:", myNFT.address);
 }
 
