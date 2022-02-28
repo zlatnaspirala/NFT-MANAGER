@@ -6,12 +6,15 @@ require("@nomiclabs/hardhat-ethers");
 const { API_URL, PRIVATE_KEY } = process.env;
 module.exports = {
    solidity: "0.7.3",
-   defaultNetwork: "ropsten",
+   defaultNetwork: "rinkeby",
    networks: {
       hardhat: {},
-      ropsten: {
+      rinkeby : {
          url: API_URL,
-         accounts: [`0x${PRIVATE_KEY}`]
+         accounts: [`0x${PRIVATE_KEY}`],
+         gasPrice: 100000,
+         gas: 1000000,
+         blockGasLimit: 40000
       }
    },
 }
