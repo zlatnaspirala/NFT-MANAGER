@@ -19,9 +19,17 @@ geth --http --mine --miner.threads=2 --miner.etherbase 0x41CC48e4d1ed1128c087b32
 
 
 
-
-
 ## TEST CASES
+
+
+### ALCHEMY
+
+https://docs.alchemy.com/alchemy/tutorials/how-to-create-an-nft
+https://faucet.rinkeby.io/
+https://composer.alchemyapi.io/
+https://rinkeby.etherscan.io/
+
+
 
 ### Using INFURA
 

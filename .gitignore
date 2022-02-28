@@ -1,3 +1,6 @@
 
 node_modules/
 config.js
+alchemy/.env
+alchemy/artifacts/
+alchemy/cache/solidity-files-cache.json
