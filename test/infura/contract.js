@@ -63,7 +63,10 @@ window.onload = () => {
   web3.eth.defaultAccount = '0x41CC48e4d1ed1128c087b3202545e6A34E240D14';
   web3.eth.accounts.wallet.add(privateKeyMainAddress)
 
-  
+  web3.eth.defaultChain = 'ropsten';
+  // web3.eth.defaultCommon.hardfork = 'byzantium';
+  web3.eth.defaultCommon = {baseChain: 'ropsten', hardfork: 'petersburg'};
+
   MyContract = new web3.eth.Contract(abi, '0x41CC48e4d1ed1128c087b3202545e6A34E240D14');
 
   
