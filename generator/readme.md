@@ -1,6 +1,11 @@
 
-# TUTORIAL:
 
+# GENERATOR
+
+Already setup env.
+
+
+#### TUTORIAL USED:
 https://docs.alchemy.com/alchemy/tutorials/how-to-create-an-nft
 
 
@@ -24,6 +29,11 @@ Solidity compilation finished successfully
 ```
 npx hardhat run scripts/deploy.js --network ropsten
 npx hardhat run scripts/deploy.js --network rinkeby
+```
+
+## Verify on ether scan
+npx hardhat verify --network ropsten 0x6614aA64e4a6558a81A809056d2c4F280284426B
+
 
 Contract deployed to address: 
 old unused
@@ -37,7 +47,7 @@ rocketCrafting test sol
 maximumroulette
 0x6614aA64e4a6558a81A809056d2c4F280284426B
 
-```
+
 
 
 ## HELP
