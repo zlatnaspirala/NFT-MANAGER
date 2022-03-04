@@ -1,8 +1,14 @@
 
-
 # GENERATOR
 
-Already setup env.
+Already setup env. All you need to run `npm i` in any folder with package.json file just like always be in node.js
+or JS. Add new contract in `generator/contracts/`
+
+
+List solidity examples also working folder for this repo `generator/contracts/`
+ - `RocketCrafting`
+   Basic write and read.
+ - `MAXIMUMROULETTE` is ERC721, Ownable but still free and without embedded fee
 
 
 #### TUTORIAL USED:
@@ -36,10 +42,6 @@ npx hardhat verify --network ropsten 0x6614aA64e4a6558a81A809056d2c4F280284426B
 
 
 Contract deployed to address: 
-old unused
-0xb932B1e36D4d6CD60360569AF741fcf8bC01fef7
-0x7795CB55b3e28a4D68C222838451989AdfC16b0A
-0x982501B01D8f41Fbc58302c143126999572c115b
 
 rocketCrafting test sol
 0x609029d83789444B7dE612E943430063a95D3A62
@@ -49,8 +51,6 @@ maximumroulette
 
 
 
-
 ## HELP
 
 Returns the information about a transaction requested by transaction hash. In the response object, `blockHash`, `blockNumber`, and `transactionIndex` are `null` when the transaction is pending.
-

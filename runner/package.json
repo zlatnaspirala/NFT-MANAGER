@@ -1,0 +1,22 @@
+{
+  "name": "nft-web-runner",
+  "version": "0.0.1",
+  "description": "alchemy-nft-api based project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && node axios-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.12",
+    "axios": "^0.25.0",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.6.0"
+  }
+}
