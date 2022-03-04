@@ -4,7 +4,9 @@
   "description": "alchemy-nft-api based project.",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development && node axios-script.js",
+    "axios": "set NODE_ENV=development && node axios.js",
+    "fetch": "set NODE_ENV=development && node fetch.js",
+    "web3": "set NODE_ENV=development && node web3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
