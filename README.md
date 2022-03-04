@@ -74,7 +74,7 @@ web3.min.js:22 Uncaught (in promise) Error: Returned values aren't valid, did it
 ```
 
 
-### You can mine it if you want thet. [OPTIMAL FOR THIS PROJECT]
+### You can mine it if you want that. [OPTIMAL FOR THIS PROJECT]
 https://geth.ethereum.org/docs/interface/managing-your-accounts
 
 Add keystore file intro keysotre path. create new account to see where is it on outputs.
