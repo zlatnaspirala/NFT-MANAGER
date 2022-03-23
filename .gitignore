@@ -6,3 +6,6 @@ alchemy/artifacts/
 alchemy/cache/solidity-files-cache.json
 generator/package-lock.json
 runner/.env
+
+secrets/
+
